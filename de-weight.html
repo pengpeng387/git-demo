@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = [21,312,34,21,34,312,32,43,43];
+        var ary = [];
+        for(var i=0;i<arr.length;i++){
+            if(ary.indexOf(arr[i])==-1){
+                ary.push(arr[i]);
+            }
+        }
+        console.log(ary);
+    </script>
+</body>
+</html>
